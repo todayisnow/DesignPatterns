@@ -17,6 +17,6 @@ There are three kinds of Design Patterns:
 ## List of Design Pattern Implementations
 -----------------------------------------
 
-* [SOLID](/SOLID)
-* Creational - [Builder](/DesignPattern/CreationalPatterns/Builder)
+* [SOLID](/DesignPatterns/SOLID)
+* Creational - [Builder](/DesignPatterns/CreationalPatterns/Builder)
 
