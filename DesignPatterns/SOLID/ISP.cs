@@ -1,6 +1,6 @@
 ﻿using static System.Console;
 
-namespace DesignPatterns.SOILD
+namespace DesignPatterns.SOLID
 {
     public class Document
     {

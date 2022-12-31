@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp2.SOILD
+﻿namespace ConsoleApp2.SOLID
 {
     // just stores a couple of journal entries and ways of
     // working with them

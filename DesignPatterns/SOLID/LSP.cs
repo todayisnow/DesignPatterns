@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.SOILD
+﻿namespace DesignPatterns.SOLID
 {
     // using a classic example
     public class Rectangle

@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.SOILD
+﻿namespace DesignPatterns.SOLID
 {
     public enum Color
     {

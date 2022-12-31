@@ -1,5 +1,5 @@
 ﻿using static System.Console;
-namespace DesignPatterns.SOILD
+namespace DesignPatterns.SOLID
 {
     // hl modules should not depend on low-level; both should depend on abstractions
     // abstractions should not depend on details; details should depend on abstractions

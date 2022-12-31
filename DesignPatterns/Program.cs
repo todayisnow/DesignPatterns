@@ -1,5 +1,5 @@
-﻿using ConsoleApp2.SOILD;
-using DesignPatterns.SOILD;
+﻿using ConsoleApp2.SOLID;
+using DesignPatterns.SOLID;
 using static System.Console;
 
 namespace ConsoleApp2
@@ -16,7 +16,7 @@ namespace ConsoleApp2
 
             if (t == 1)
             {
-                #region SOILD
+                #region SOLID
 
                 #region Single Responsibility Principle
                 //Single Responsibility Principle
