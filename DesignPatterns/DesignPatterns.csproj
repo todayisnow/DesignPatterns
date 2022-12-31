@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Folder Include="BehavioralPatterns\" />
+    <Folder Include="CreationalPatterns\Factory\" />
     <Folder Include="StructuralPatterns\" />
   </ItemGroup>
 
