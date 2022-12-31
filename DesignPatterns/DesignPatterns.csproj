@@ -4,14 +4,12 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
     <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DesignPattern\BehavioralPatterns\" />
-    <Folder Include="DesignPattern\CreationalPatterns\Builder\" />
-    <Folder Include="DesignPattern\StructuralPatterns\" />
+    <Folder Include="BehavioralPatterns\" />
+    <Folder Include="StructuralPatterns\" />
   </ItemGroup>
 
 </Project>

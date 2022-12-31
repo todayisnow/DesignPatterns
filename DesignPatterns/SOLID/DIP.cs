@@ -11,7 +11,7 @@ namespace DesignPatterns.SOLID
         Sibling
     }
 
-    public class Person
+    public class Human
     {
         public string Name;
         // public DateTime DateOfBirth;
@@ -20,15 +20,15 @@ namespace DesignPatterns.SOLID
 
     public interface IRelationshipBrowser
     {
-        IEnumerable<Person> FindAllChildrenOf(string name);
+        IEnumerable<Human> FindAllChildrenOf(string name);
     }
 
     public class Relationships : IRelationshipBrowser // low-level
     {
-        private List<(Person, Relationship, Person)> relations
-          = new List<(Person, Relationship, Person)>();
+        private List<(Human, Relationship, Human)> relations
+          = new List<(Human, Relationship, Human)>();
 
-        public void AddParentAndChild(Person parent, Person child)
+        public void AddParentAndChild(Human parent, Human child)
         {
             relations.Add((parent, Relationship.Parent, child));
             relations.Add((child, Relationship.Child, parent));
@@ -36,7 +36,7 @@ namespace DesignPatterns.SOLID
 
         //public List<(Person, Relationship, Person)> Relations => relations;
 
-        public IEnumerable<Person> FindAllChildrenOf(string name)
+        public IEnumerable<Human> FindAllChildrenOf(string name)
         {
             return relations
               .Where(x => x.Item1.Name == name
