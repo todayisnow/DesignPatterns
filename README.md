@@ -19,4 +19,5 @@ There are three kinds of Design Patterns:
 
 * [SOLID](/DesignPatterns/SOLID)
 * Creational - [Builder](/DesignPatterns/CreationalPatterns/Builder)
+* Creational - [Factory](/DesignPatterns/CreationalPatterns/Factory)
 
