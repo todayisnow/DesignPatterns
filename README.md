@@ -1,5 +1,5 @@
 # SOLID Principles Reference
-
+* [SOLID](/DesignPatterns/SOLID)
 ## 1. Single Responsibility Principle (SRP)
 
 **Definition:**
@@ -76,6 +76,33 @@ There are three kinds of Design Patterns:
 ## List of Design Pattern Implementations
 -----------------------------------------
 
-* [SOLID](/DesignPatterns/SOLID)
+## Builder Design Pattern
 * Creational - [Builder](/DesignPatterns/CreationalPatterns/Builder)
+
+**Intent:**
+Separate the construction of a complex object from its representation, allowing the same construction process to create different representations.
+
+**Structure:**
+- **Director:** Manages the construction process through a builder.
+- **Builder:** Declares the steps for constructing the product.
+- **ConcreteBuilder:** Implements the builder interface to construct the product.
+- **Product:** Represents the complex object being constructed.
+
+**Real-life Example:**
+Consider a `MealBuilder` that constructs different types of meals (product) using steps like adding a burger, a drink, and sides. Various concrete builders (e.g., `VegetarianMealBuilder`, `NonVegetarianMealBuilder`) implement the construction process.
+
+## Factory Design Pattern
 * Creational - [Factory](/DesignPatterns/CreationalPatterns/Factory)
+
+**Intent:**
+Define an interface for creating an object, but let subclasses alter the type of objects that will be created.
+
+**Types:**
+- **Simple Factory:** A single factory class responsible for object creation.
+- **Factory Method:** Defines an interface for creating an object, allowing subclasses to alter the type.
+- **Abstract Factory:** Provides an interface for creating families of related or dependent objects.
+
+**Real-life Example:**
+Consider a `VehicleFactory` with methods like `createCar()` and `createBike()`. Subclasses (`CarFactory`, `BikeFactory`) implement these methods to create specific types of vehicles. This allows flexibility in creating different types of vehicles without modifying client code.
+
+
