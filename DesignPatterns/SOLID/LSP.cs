@@ -1,4 +1,8 @@
-﻿namespace DesignPatterns.SOLID
+﻿//3.Liskov Substitution Principle(LSP):
+
+//    Summary: Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+//    Real-life Example: If you have a class representing shapes, any subclass (like Circle or Square) should be interchangeable without causing issues in the program's logic.
+namespace DesignPatterns.SOLID
 {
     // using a classic example
     public class Rectangle

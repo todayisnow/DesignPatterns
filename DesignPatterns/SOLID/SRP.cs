@@ -2,6 +2,10 @@
 {
     // just stores a couple of journal entries and ways of
     // working with them
+    //1. Single Responsibility Principle(SRP) :
+
+    //Summary: A class should have only one reason to change, meaning it should have only one responsibility or job.
+    //Real-life Example: Consider a class that manages employee information and also handles file operations.Following SRP, you would separate these concerns into two classes: one for employee management and another for file operations.
     public class Journal
     {
         private readonly List<string> entries = new List<string>();

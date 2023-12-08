@@ -1,4 +1,8 @@
-﻿using static System.Console;
+﻿//4.Interface Segregation Principle(ISP):
+
+//    Summary: A class should not be forced to implement interfaces it does not use. Clients should not be forced to depend on interfaces they do not use.
+//    Real-life Example: If you have an interface for a printer, and not all classes implementing it need to support color printing, you should split the interface into one for basic printing and another for color printing.
+using static System.Console;
 
 namespace DesignPatterns.SOLID
 {

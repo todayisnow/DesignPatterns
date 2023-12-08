@@ -1,4 +1,8 @@
-﻿namespace DesignPatterns.SOLID
+﻿//2.Open / Closed Principle(OCP):
+
+//    Summary: Software entities(classes, modules, functions, etc.) should be open for extension but closed for modification. This promotes adding new functionality without altering existing code.
+//    Real-life Example: Instead of modifying the code of a class to add a new feature, you would create a new class that inherits from the original one and extends its functionality.
+namespace DesignPatterns.SOLID
 {
     public enum Color
     {

@@ -151,19 +151,16 @@ namespace ConsoleApp2
             #region Structural Design Patterns
             //  explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
 
-            #region Builder Pattern
-            //Builder Pattern
-            //Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 
-            #endregion
 
             #endregion
 
             #region Creational Design Patterns
             // Creational design patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
+            #region Builder Design Pattern
             if (t == 2)
             {
-                #region Builder Design Pattern
+
                 // Lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
                 // if you want to build a simple HTML paragraph using StringBuilder
                 WriteLine("Fluent Builder");
@@ -237,15 +234,19 @@ namespace ConsoleApp2
                 WriteLine("================");
                 var cb = new CodeBuilder("Person").AddField("Name", "string").AddField("Age", "int");
                 Console.WriteLine(cb);
-                #endregion
+
             }
+            #endregion
+
+            #region Factory Design Pattern
+            //Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
             if (t == 3)
             {
-                #region Factory Design Pattern
 
-                #endregion
+
+
             }
-
+            #endregion
             #endregion
 
             #region Behavioral Design Patterns
