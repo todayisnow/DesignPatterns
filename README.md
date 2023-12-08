@@ -91,7 +91,7 @@ Separate the construction of a complex object from its representation, allowing 
 **Real-life Example:**
 Consider a `MealBuilder` that constructs different types of meals (product) using steps like adding a burger, a drink, and sides. Various concrete builders (e.g., `VegetarianMealBuilder`, `NonVegetarianMealBuilder`) implement the construction process.
 
-![Design Patterns](https://www.dofactory.com/img/diagrams/net/builder.png)
+![Builder](https://www.dofactory.com/img/diagrams/net/builder.png)
 
 
 
@@ -109,7 +109,7 @@ Define an interface for creating an object, but let subclasses alter the type of
 **Real-life Example:**
 Consider a `VehicleFactory` with methods like `createCar()` and `createBike()`. Subclasses (`CarFactory`, `BikeFactory`) implement these methods to create specific types of vehicles. This allows flexibility in creating different types of vehicles without modifying client code.
 
-
+![Factory](https://www.dofactory.com/img/diagrams/net/factory.png)
 
 
 
