@@ -91,7 +91,7 @@ Separate the construction of a complex object from its representation, allowing 
 **Real-life Example:**
 Consider a `MealBuilder` that constructs different types of meals (product) using steps like adding a burger, a drink, and sides. Various concrete builders (e.g., `VegetarianMealBuilder`, `NonVegetarianMealBuilder`) implement the construction process.
 
-![Design Patterns]([https://example.com/path/to/design_patterns.png](https://www.dofactory.com/img/diagrams/net/builder.png))
+![Design Patterns](https://www.dofactory.com/img/diagrams/net/builder.png)
 
 
 
