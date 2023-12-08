@@ -1,5 +1,5 @@
-# SOLID Principles Reference
-* [SOLID](/DesignPatterns/SOLID)
+# [SOLID](/DesignPatterns/SOLID) Principles Reference
+
 ## 1. Single Responsibility Principle (SRP)
 
 **Definition:**
@@ -75,9 +75,8 @@ There are three kinds of Design Patterns:
 
 ## List of Design Pattern Implementations
 -----------------------------------------
-
-## Builder Design Pattern
-* Creational - [Builder](/DesignPatterns/CreationalPatterns/Builder)
+##Creational
+## [Builder](/DesignPatterns/CreationalPatterns/Builder) Design Pattern
 
 **Intent:**
 Separate the construction of a complex object from its representation, allowing the same construction process to create different representations.
@@ -95,8 +94,7 @@ Consider a `MealBuilder` that constructs different types of meals (product) usin
 
 
 
-## Factory Design Pattern
-* Creational - [Factory](/DesignPatterns/CreationalPatterns/Factory)
+## [Factory](/DesignPatterns/CreationalPatterns/Factory) Design Pattern
 
 **Intent:**
 Define an interface for creating an object, but let subclasses alter the type of objects that will be created.
