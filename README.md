@@ -56,7 +56,8 @@ High-level modules should not depend on low-level modules. Both should depend on
 **Real-life Example:**
 Instead of a high-level module depending on specific database details, depend on an abstraction (database interface) to allow flexibility in using different database implementations.
 
-============================================================================================
+---
+
 # Design Patterns
 Design patterns are solutions to recurring problems; guidelines on how to tackle certain problems.
 I have included implementations of some design patterns in C# to help beginners like me get their feet wet.
@@ -73,9 +74,9 @@ There are three kinds of Design Patterns:
 * Structural
 * Behavioral
 
-## List of Design Pattern Implementations
+## List of Creational Design Pattern Implementations
 -----------------------------------------
-##Creational
+
 ## [Builder](/DesignPatterns/CreationalPatterns/Builder) Design Pattern
 
 **Intent:**
